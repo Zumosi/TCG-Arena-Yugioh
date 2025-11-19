@@ -68,7 +68,8 @@
           "Spells_5",
           "Extra_Monster_1",
           "Extra_Monster_2",
-          "Field"
+          "Field",
+          "Extra_Deck"
         ],
         "layout": {
           "direction": "row",
@@ -98,6 +99,10 @@
                 },
                 {
                   "section": "Field",
+                  "style": false
+                },
+                {
+                  "section": "Extra_Deck",
                   "style": false
                 }
               ],
@@ -167,7 +172,7 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Extra deck->ExileHidden"
+          "Extra deck->Extra_Deck"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
@@ -368,6 +373,21 @@
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Extra_Deck": {
+            "title": "Extra_Deck",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
         }
